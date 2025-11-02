@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #41BDD9;
+    color: #369EB5;
+}
+#header h1{
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px #43C4E0;
+    margin-bottom: 10px;
+    position: relative;
+    color: #dddddd;
+    text-align: center;
+}
