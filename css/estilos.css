@@ -1,19 +1,126 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: #41BDD9;
-    color: #369EB5;
+    background-color: #F5F5F5;
+    color: #222;
 }
-#header h1{
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 4px #43C4E0;
-    margin-bottom: 10px;
-    position: relative;
-    color: #dddddd;
+#contenedor {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #1B1F23; 
+    color: #F5F5F5;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
     text-align: center;
+}
+
+#contenedor h1 {
+    font-size: 2.5rem;
+    color: #00B8D4;
+    margin-bottom: 10px;
+}
+
+#contenedor p {
+    font-size: 1.2rem;
+    color: #DADADA;
+}
+#navbar {
+    background-color: #0D0D0D;
+    padding: 15px 0;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#navbar li {
+    margin: 0 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+    color: #00B8D4;
+}
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.post-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.post-text {
+    flex: 1;
+}
+
+.post-text h3 {
+    font-size: 1.8rem;
+    color: #1B1F23;
+    margin-bottom: 15px;
+}
+
+.post-text p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.post-image img {
+    border-radius: 10px;
+    max-width: 400px;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .post-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .post-image img {
+        max-width: 100%;
+    }
+}
+footer {
+    background-color: #1B1F23;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 60px;
+    border-top: 3px solid #00B8D4;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+}
+footer .footer-content p {
+    margin: 8px 0;
+    font-size: 0.95rem;
+}
+footer a {
+    color: #00B8D4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #5CE0F4;
 }
