@@ -227,7 +227,7 @@ footer a:hover {
     border-radius: 10px
 }
 
-/* ======= seccion de herramientas y motores ======= */
+/* ======= seccion de herramientas y ======= */
 
 .post-content {
   display: block;
@@ -290,6 +290,59 @@ footer a:hover {
 .post-image img {
   max-width: 60%;
   border-radius: 12px;
+}
+
+.bibliografia {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.bibliografia h2 {
+  color: #00B8D4;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #E0E0E0;
+  padding-bottom: 6px;
+}
+
+.lista-fuentes,
+.lista-propias {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.lista-fuentes li,
+.lista-propias li {
+  padding: 10px 0;
+  border-bottom: 1px solid #EEE;
+}
+
+.lista-fuentes a {
+  color: #007B8A;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.lista-fuentes a:hover {
+  color: #00B8D4;
+  text-decoration: underline;
+}
+
+.lista-propias li em {
+  color: #666;
+}
+
+.nota {
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  font-style: italic;
 }
 
 
